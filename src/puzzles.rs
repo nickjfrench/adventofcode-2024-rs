@@ -1,5 +1,6 @@
 use std::fs;
 mod day1;
+mod day2;
 
 pub fn solve_puzzle(day: u32) {
     let data = match get_data(day) {
